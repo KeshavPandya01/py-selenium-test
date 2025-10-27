@@ -1,10 +1,10 @@
 pipeline {
     agent any
 
-    tools {
-        // Optional: if you configured Python under "Global Tool Configuration"
-        // python 'Python'
-    }
+    // tools {
+    //     // Optional: if you configured Python under "Global Tool Configuration"
+    //     // python 'Python'
+    // }
 
     stages {
         stage('Checkout') {
